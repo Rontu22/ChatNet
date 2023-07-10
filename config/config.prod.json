@@ -1,0 +1,446 @@
+{
+  "name": {
+    "type": "parameter",
+    "key": "SERVICE_NAME",
+    "value": "eklavya"
+  },
+  "dbHost": {
+    "type": "secret",
+    "key": "DB_HOST",
+    "value": "eklavya/prod/db/write/host"
+  },
+  "dbPassword": {
+    "type": "secret",
+    "key": "DB_PASSWORD",
+    "value": "eklavya/prod/db/write/password"
+  },
+  "dbUser": {
+    "type": "secret",
+    "key": "DB_USER",
+    "value": "eklavya/prod/db/write/user"
+  },
+  "ipAddressApiKey": {
+    "type": "secret",
+    "key": "IP_API_KEY",
+    "value": "commons/prod/ip-api-key"
+  },
+  "dbDialect": {
+    "type": "secret",
+    "key": "DB_DIALECT",
+    "value": "eklavya/prod/db/dialect"
+  },
+  "dbPort": {
+    "type": "secret",
+    "key": "DB_PORT",
+    "value": "eklavya/prod/db/write/port"
+  },
+  "tryoutsApiKey": {
+    "type": "secret",
+    "key": "TRYOUTS_API_KEY",
+    "value": "commons/prod/tryouts/apiKey"
+  },
+  "dbDatabase": {
+    "type": "secret",
+    "key": "DB_DATABASE",
+    "value": "eklavya/prod/db/database"
+  },
+  "platformApiKey": {
+    "type": "secret",
+    "key": "PLATFORM_API_KEY",
+    "value": "commons/prod/platform/apiKey"
+  },
+  "apiKey": {
+    "type": "secret",
+    "key": "API_KEY",
+    "value": "commons/prod/eklavya/apiKey"
+  },
+  "paathshalaApiKey": {
+    "type": "secret",
+    "key": "PAATHSHALA_API_KEY",
+    "value": "commons/prod/paathshala/apiKey"
+  },
+  "chowkidarApiKey": {
+    "type": "secret",
+    "key": "CHOWKIDAR_API_KEY",
+    "value": "commons/prod/chowkidar/apiKey"
+  },
+  "dbReadHost": {
+    "type": "secret",
+    "key": "DB_READ_HOST",
+    "value": "eklavya/prod/db/read/host"
+  },
+  "dbReadPassword": {
+    "type": "secret",
+    "key": "DB_READ_PASSWORD",
+    "value": "eklavya/prod/db/read/password"
+  },
+  "dbReadDialect": {
+    "type": "secret",
+    "key": "DB_READ_DIALECT",
+    "value": "eklavya/prod/db/dialect"
+  },
+  "dbReadPort": {
+    "type": "secret",
+    "key": "DB_READ_PORT",
+    "value": "eklavya/prod/db/read/port"
+  },
+  "dbReadUser": {
+    "type": "secret",
+    "key": "DB_READ_USER",
+    "value": "eklavya/prod/db/read/user"
+  },
+  "enableTracing": {
+    "type": "parameter",
+    "key": "ENABLE_TRACING",
+    "value": "1"
+  },
+  "otelExporter": {
+    "type": "parameter",
+    "key": "OTEL_EXPORTER",
+    "value": "otel"
+  },
+  "otelTraceHost": {
+    "type": "secret",
+    "key": "OTEL_TRACE_HOST",
+    "value": "commons/prod/otel-trace-host"
+  },
+  "otelTracePort": {
+    "type": "secret",
+    "key": "OTEL_TRACE_PORT",
+    "value": "commons/prod/otel-trace-port"
+  },
+  "clientUrls": {
+    "type": "parameter",
+    "key": "ALLOWED_DOMAINS",
+    "value": "https://prashashak.brightchamps.com"
+  },
+  "crmLink": {
+    "type": "parameter",
+    "key": "CRM_LINK",
+    "value": "https://crm.zoho.in/crm/org60003028865/tab/Potentials/"
+  },
+  "slackPaymentAnnouncementChannel": {
+    "type": "parameter",
+    "key": "PAYMENT_ANNOUNCEMENT_SLACK_UNIFIED_CHANNEL",
+    "value": "payment-announcement-unified"
+  },
+  "s3AccessKey": {
+    "type": "secret",
+    "key": "S3_ACCESS_KEY",
+    "value": "eklavya/prod/s3/key"
+  },
+  "s3AccessSecret": {
+    "type": "secret",
+    "key": "S3_ACCESS_SECRET",
+    "value": "eklavya/prod/s3/secret"
+  },
+  "s3InvoiceBucket": {
+    "type": "parameter",
+    "key": "PAYMENT_INVOICE_S3_BUCKET",
+    "value": "brightchamps-invoices"
+  },
+  "sqsAccessKey": {
+    "type": "secret",
+    "key": "SQS_ACCESS_KEY",
+    "value": "eklavya/prod/sqs/key"
+  },
+  "sqsAccessSecret": {
+    "type": "secret",
+    "key": "SQS_ACCESS_SECRET",
+    "value": "eklavya/prod/sqs/secret"
+  },
+  "requestGenerateInvoice": {
+    "type": "parameter",
+    "key": "REQUEST_INVOICE_SQS_URL",
+    "value": "https://sqs.ap-southeast-1.amazonaws.com/271378155896/invoice-generation"
+  },
+  "onboardCommunications": {
+    "type": "parameter",
+    "key": "ONBOARD_FLOW_SQS_URL",
+    "value": "https://sqs.ap-southeast-1.amazonaws.com/271378155896/onboarding-flow-prod"
+  },
+  "scheduleLink": {
+    "type": "parameter",
+    "key": "SCHEDULE_LINK",
+    "value": "https://champ.brightchamps.com/"
+  },
+  "prashashakApiKey": {
+    "type": "secret",
+    "key": "PRASHASHAK_API_KEY",
+    "value": "commons/prod/prashashak/apiKey"
+  },
+  "dronacharyaApiKey": {
+    "type": "secret",
+    "key": "DRONACHARYA_API_KEY",
+    "value": "commons/prod/dronacharya/apiKey"
+  },
+  "slackToken": {
+    "type": "secret",
+    "key": "SLACK_TOKEN",
+    "value": "eklavya/prod/sendSlackToken"
+  },
+  "defaultTeachers": {
+    "type": "parameter",
+    "key": "DEFAULT_TEACHERS",
+    "value": {
+      "1": "3",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "3",
+      "6": "3",
+      "7": "3"
+    }
+  },
+  "slackErrorReportChannel": {
+    "type": "parameter",
+    "key": "ERROR_REPORTING_SLACK_CHANNEL",
+    "value": "eklavya-prod-notifications"
+  },
+  "apiEndpoints": {
+    "type": "parameter",
+    "key": "API_ENDPOINTS",
+    "value": {
+      "serviceEndpoints": {
+        "booking": {
+          "baseUrl": "http://tryouts-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/tryouts",
+          "endpoints": {
+            "GetBookingInfo": {
+              "method": "GET",
+              "path": "/v1/booking/details",
+              "timeout": 30000,
+              "params": ["objectId"]
+            },
+            "UpdateBooking": {
+              "method": "POST",
+              "path": "/v1/booking/update",
+              "timeout": 30000,
+              "params": ["objectId", "studentId"]
+            },
+            "GetTeacherInfo": {
+              "method": "GET",
+              "path": "/v1/booking/teacher",
+              "timeout": 30000,
+              "params": ["bookingUUID"]
+            }
+          }
+        },
+        "platform": {
+          "baseUrl": "http://platform-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/platform",
+          "endpoints": {
+            "Language": {
+              "method": "GET",
+              "path": "/v1/mappings/languages",
+              "timeout": 10000
+            },
+            "Course": {
+              "method": "GET",
+              "path": "/v1/mappings/courses",
+              "timeout": 2000
+            },
+            "CourseDurationMapping": {
+              "method": "GET",
+              "path": "/v1/mappings/course_duration_mappings",
+              "timeout": 2000
+            },
+            "TimeZone": {
+              "method": "GET",
+              "path": "/v1/mappings/timezones",
+              "timeout": 2000
+            },
+            "Country": {
+              "method": "GET",
+              "path": "/v1/mappings/countries",
+              "timeout": 2000
+            },
+            "GetCourseByGrade": {
+              "method": "GET",
+              "path": "/v1/mappings/course_grade_map",
+              "timeout": 2000
+            },
+            "GetCurrencies":{
+              "method": "GET",
+              "path": "/v1/mappings/currencies",
+              "timeout": 4000
+            },
+            "GetCurrencyConversion":{
+              "method": "GET",
+              "path": "/v1/mappings/currency_conversions",
+              "timeout": 4000
+            }
+          }
+        },
+        "payment": {
+          "baseUrl": "http://payment-structure-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/payment-structure",
+          "endpoints": {
+            "InitiatePayment": {
+              "method": "POST",
+              "path": "/v1/payment-initiation/create",
+              "timeout": 30000
+            },
+            "FindPayment": {
+              "method": "POST",
+              "path": "/v1/payment-initiation/find-one-by-id",
+              "timeout": 10000
+            },
+            "FindPaymentTransactionInfo": {
+              "method": "POST",
+              "path": "/v1/payment-transaction-info/find",
+              "timeout": 10000
+            }
+          }
+        },
+        "chowkidar": {
+          "baseUrl": "http://chowkidar-be-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/chowkidar",
+          "endpoints": {
+            "VerifyToken": {
+              "method": "GET",
+              "path": "/v1/auth/verify-token",
+              "timeout": 10000
+            },
+            "CreateUser": {
+              "method": "POST",
+              "path": "/v1/user/create-user",
+              "timeout": 5000
+            },
+            "GetMPIN": {
+              "method": "GET",
+              "path": "/v1/user/mpin",
+              "timeout": 5000
+            }
+          }
+        },
+        "paathshala": {
+          "baseUrl": "http://paathshala-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/paathshala",
+          "endpoints": {
+            "GetTeacherLTA": {
+              "method": "GET",
+              "path": "/api/v1/calendar/availability/long-term",
+              "timeout": 15000
+            },
+            "UpdateStudentModules": {
+              "method": "POST",
+              "path": "/api/v1/curriculum/student/module",
+              "timeout": 15000
+            },
+            "GetModule": {
+              "method": "GET",
+              "path": "/api/v1/curriculum/modules",
+              "timeout": 15000
+            },
+            "GetModuleById": {
+              "method": "GET",
+              "path": "/api/v1/curriculum/modules/:id",
+              "timeout": 15000,
+              "pathParams": ["id"]
+            },
+            "GetTeacherCalendarAvailability": {
+              "method": "GET",
+              "path": "/api/v1/calendar/availability",
+              "timeout": 10000
+            },
+            "CancelAllClasses": {
+              "method": "POST",
+              "path": "/api/v1/class/paid/cancel-all",
+              "timeout": 15000
+            },
+            "GetStudentClassList": {
+              "method": "GET",
+              "path": "/api/v1/class/paid/student-class-list",
+              "timeout": 15000
+            },
+            "GetClassCount": {
+              "method": "POST",
+              "path": "/api/v1/class/paid/class-count",
+              "timeout": 150000
+            },
+            "PendingScheduling": {
+              "method": "POST",
+              "path": "/api/v1/students/paid-students-pending-scheduling",
+              "timeout": 15000
+            }
+          }
+        },
+        "hermesService": {
+          "baseUrl": "https://api-hermes.brightchamps.com/api",
+          "publicUrl": "https://api-hermes.brightchamps.com/api",
+          "endpoints": {
+            "SendMessage": {
+              "method": "POST",
+              "path": "/v1/send-message",
+              "timeout": 60000
+            }
+          }
+        },
+        "dronacharya": {
+          "baseUrl": "http://dronacharya-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/dronacharya",
+          "endpoints": {
+            "GetTeacher": {
+              "method": "GET",
+              "path": "/api/v1/teacher/details",
+              "timeout": 60000
+            },
+            "GetTeachers": {
+              "method": "POST",
+              "path": "/api/v1/teacher",
+              "timeout": 60000
+            },
+            "UpdateTeacherChangeRequests": {
+              "method": "PUT",
+              "path": "/api/v1/teacher-change/requests/:id",
+              "timeout": 60000,
+              "pathParams": ["id"]
+            }
+          }
+        },
+        "prabandhan": {
+          "baseUrl": "http://prabandhan-service:8000",
+          "publicUrl": "https://api-services.brightchamps.com/prabandhan",
+          "endpoints": {
+            "UpdateCrmDealToClosedWon": {
+              "method": "POST",
+              "path": "/v1/deal/update-crm-deal-to-closed-won",
+              "timeout": 15000
+            },
+            "GetDealInfo": {
+              "method": "GET",
+              "path": "/v1/deal/get-deal-by-student-id",
+              "timeout": 30000,
+              "params": ["student_id"]
+            }
+          }
+        },
+        "prashashak": {
+          "baseUrl": "https://api-services.brightchamps.com/prashashak",
+          "publicUrl": "https://api-services.brightchamps.com/prashashak",
+          "endpoints": {
+            "GetSMdetails": {
+              "method": "POST",
+              "path": "/v1/admin/employees",
+              "timeout": 15000
+            }
+          }
+        }
+      },
+      "externalEndpoints": {
+        "ipinfo": {
+          "baseUrl": "https://ipapi.co/:ip",
+          "endpoints": {
+            "GetIpInfo": {
+              "method": "GET",
+              "path": "/json",
+              "timeout": 30000,
+              "pathParams": ["ip"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
